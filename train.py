@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 # Параметры
 data_dir = "dataset"
 epochs = 20
-batch_size = 8
+batch_size = 128
 lr = 0.0001
 
 # ✅ Улучшенная аугментация
