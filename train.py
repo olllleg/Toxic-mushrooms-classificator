@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 data_dir = "dataset"
 epochs = 20
 batch_size = 8
-lr = 0.001
+lr = 0.0001
 
 # ✅ Улучшенная аугментация
 train_transform = transforms.Compose([
